@@ -1,0 +1,98 @@
+.tasbeeh__wrapper {
+	position: relative;
+	z-index: 200;
+	background-color: #1c313a;
+	width: 300px;
+	height: 400px;
+	border-top-left-radius: 80px;
+	border-top-right-radius: 80px;
+	border-bottom-left-radius: 200px;
+	border-bottom-right-radius: 200px;
+	display: flex;
+	border: 20px solid #819ca9;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.15),
+		0 12px 24px rgba(0, 0, 0, 0.2);
+	.strap::before {
+		content: '';
+		z-index: 101;
+		width: 140px;
+		height: 230px;
+		position: absolute;
+		background-color: #819ca9;
+		top: -230px;
+		left: 80px;
+		border-top-left-radius: 100px;
+		border-top-right-radius: 100px;
+		// box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.15),
+		// 	0 12px 24px rgba(0, 0, 0, 0.2);
+	}
+	.strap::after {
+		content: '';
+		z-index: 101;
+		width: 140px;
+		height: 230px;
+		position: absolute;
+		background-color: #819ca9;
+		bottom: -230px;
+		left: 78px;
+		border-bottom-right-radius: 100px;
+		border-bottom-left-radius: 100px;
+		// box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.15),
+		// 	0 12px 24px rgba(0, 0, 0, 0.2);
+	}
+
+	.screen {
+		width: 75%;
+		height: 60px;
+		background-color: #81a991;
+		border-radius: 50px;
+		margin-left: 29px;
+		margin-top: 70px;
+		display: flex;
+		padding: 0 10px;
+		font-size: 30px;
+		align-items: center;
+		justify-content: start;
+		span {
+			padding-left: 20px;
+			font-family: 'Orbitron', sans-serif;
+		}
+	}
+
+	.btns {
+		.reset {
+			top: 190px;
+			left: 210px;
+			width: 40px;
+			height: 40px;
+			background-color: #3e8e41;
+			border-radius: 50%;
+			position: absolute;
+			z-index: 101;
+			border: 1px solid transparent;
+			font-family: 'Roboto', sans-serif;
+			transition: background-color 0.3s ease;
+			color: #fff;
+			cursor: pointer;
+			&:hover {
+				background-color: #4caf50;
+			}
+		}
+		.counter {
+			position: absolute;
+			z-index: 101;
+			top: 210px;
+			left: 93px;
+			width: 120px;
+			height: 120px;
+			border-radius: 50%;
+			background-color: #3e8e41;
+			border: 1px solid transparent;
+			transition: background-color 0.3s ease;
+			cursor: pointer;
+			&:hover {
+				background-color: #4caf50;
+			}
+		}
+	}
+}
