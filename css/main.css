@@ -211,6 +211,7 @@ table {
 }
 .tasbeeh__wrapper .btns .reset:hover {
   background-color: #4caf50;
+  -webkit-tap-highlight-color: transparent;
 }
 .tasbeeh__wrapper .btns .counter {
   position: absolute;
@@ -227,4 +228,5 @@ table {
 }
 .tasbeeh__wrapper .btns .counter:hover {
   background-color: #4caf50;
+  -webkit-tap-highlight-color: transparent;
 }/*# sourceMappingURL=main.css.map */

@@ -10,5 +10,5 @@ function inc() {
 
 function reset() {
 	offset = 0
-	count.innerHTML = offset // Update the display to show "0"
+	count.innerHTML = offset
 }

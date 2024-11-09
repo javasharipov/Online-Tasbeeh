@@ -76,6 +76,7 @@
 			cursor: pointer;
 			&:hover {
 				background-color: #4caf50;
+				-webkit-tap-highlight-color: transparent;
 			}
 		}
 		.counter {
@@ -92,6 +93,7 @@
 			cursor: pointer;
 			&:hover {
 				background-color: #4caf50;
+				-webkit-tap-highlight-color: transparent;
 			}
 		}
 	}
